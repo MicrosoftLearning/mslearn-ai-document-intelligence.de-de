@@ -1,2 +1,2 @@
-# mslearn-ai-document-intelligence.de-de
-German repo
+# mslearn-document-intelligence
+Labdateien für Azure KI Dokument Intelligenz-Module
