@@ -1,7 +1,7 @@
 ---
 lab:
   title: Verwenden von vorgefertigten Dokument-Intelligenz-Modellen
-  module: Module 11 - Reading Text in Images and Documents
+  module: Module 6 - Document Intelligence
 ---
 
 # Verwenden von vorgefertigten Dokument-Intelligenz-Modellen
@@ -13,15 +13,15 @@ In dieser Übung richten Sie eine Ressource für „Azure KI Dokument Intelligen
 Bevor Sie den Dienst „Azure KI Dokument Intelligenz“ aufrufen können, müssen Sie eine Ressource zum Hosten dieses Dienstes in Azure erstellen:
 
 1. Öffnen Sie auf einer Browserregisterkarte das Azure-Portal unter [https://portal.azure.com](https://portal.azure.com?azure-portal=true), und melden Sie sich mit dem Microsoft-Konto an, das Ihrem Azure-Abonnement zugeordnet ist.
-1. Navigieren Sie im Azure-Portal auf der Homepage zum oberen Suchfeld, geben Sie **Dokument Intelligenz** ein, und drücken Sie dann die **Eingabetaste**.
+1. Navigieren Sie im Azure-Portal auf der Homepage zum oberen Suchfeld, geben Sie **Dokumentintelligenz** ein, und drücken Sie dann die **Eingabetaste**.
 1. Wählen Sie auf der Seite **Dokumentintelligenz** die Option **Erstellen** aus.
-1. Verwenden Sie auf der Seite **Dokument Intelligenz erstellen** Folgendes, um Ihre Ressource zu konfigurieren:
+1. Verwenden Sie auf der Seite **Dokumentintelligenz erstellen** Folgendes, um Ihre Ressource zu konfigurieren:
     - **Abonnement**: Ihr Azure-Abonnement.
-    - **Ressourcengruppe**: Wählen Sie eine Ressourcengruppe mit einem eindeutigen Namen wie *DocIntelligenceResources* aus, oder erstellen Sie eine.
+    - **Ressourcengruppe**: Wählen Sie eine Ressourcengruppe aus oder erstellen Sie eine mit einem eindeutigen Namen wie *DocIntelligenceResources*.
     - **Region**: Wählen Sie eine Region in Ihrer Nähe aus.
     - **Name**: Geben Sie einen global eindeutigen Namen ein.
-    - **Tarif**: Wählen Sie **Free F0** aus (wenn Sie über keinen Free-Tarif verfügen, wählen Sie **Standard S0** aus).
-1. Wählen Sie dann **Überprüfen + erstellen** und **Erstellen** aus. Warten Sie, während Azure die neue Ressource für Azure KI Dokument Intelligenz bereitstellt.
+    - **Tarif**: Wählen Sie **Kostenlos F0** aus (wenn Sie über keinen Free-Tarif verfügen, wählen Sie **Standard S0** aus).
+1. Wählen Sie **Überprüfen + erstellen** und dann **Erstellen** aus. Warten Sie, während Azure die neue Ressource für Azure KI Dokument Intelligenz bereitstellt.
 1. Wählen Sie nach Abschluss der Bereitstellung die Option **Zu Ressourcengruppe wechseln**. Halten Sie diese Seite für den Rest dieser Übung geöffnet.
 
 ## Verwenden des Lesemodells
@@ -210,10 +210,10 @@ Jetzt können Sie das SDK verwenden, um die PDF-Datei auszuwerten.
 
 Das Programm zeigt den Namen des Lieferanten und Kunden sowie die Gesamtsumme der Rechnung mit entsprechendem Konfidenzniveau an. Vergleichen Sie die gemeldeten Werte mit der Beispielrechnung, die Sie am Anfang dieses Abschnitts geöffnet haben.
 
-## Bereinigen
+## Bereinigung
 
 Wenn Sie mit Ihrer Azure-Ressource fertig sind, denken Sie daran, die Ressource im [Azure-Portal](https://portal.azure.com/?azure-portal=true) zu löschen, um zukünftige Gebühren zu vermeiden.
 
 ## Weitere Informationen
 
-Weitere Informationen zum Dokument Intelligenz-Dienst finden Sie in der [Dokumentation zur Dokument Intelligenz](https://learn.microsoft.com/azure/ai-services/document-intelligence/?azure-portal=true).
+Weitere Informationen zum Dokument Intelligenz-Dienst finden Sie in der [Dokumentation zu Dokument Intelligenz](https://learn.microsoft.com/azure/ai-services/document-intelligence/?azure-portal=true).

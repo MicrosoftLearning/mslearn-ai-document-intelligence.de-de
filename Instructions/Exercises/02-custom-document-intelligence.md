@@ -1,10 +1,10 @@
 ---
 lab:
   title: Extrahieren von Daten aus Formularen
-  module: Module 11 - Reading Text in Images and Documents
+  module: Module 6 - Document Intelligence
 ---
 
-# Extrahieren von Daten aus Formularen 
+# Extrahieren von Daten aus Formularen
 
 Angenommen, in einem Unternehmen müssen Mitarbeiter*innen die Daten von Bestellungen manuell in eine Datenbank eingeben. Das Unternehmen möchte KI-Dienste nutzen, um den Dateneingabeprozess zu verbessern. Sie planen, ein Machine Learning-Modell zu erstellen, das das Formular liest und strukturierte Daten erzeugt, die zum automatischen Aktualisieren einer Datenbank verwendet werden können.
 
@@ -75,7 +75,7 @@ Sie verwenden Beispielformulare wie dieses, um ein Modell zu trainieren:
     az account list-locations -o table
     ```
 
-1. Suchen Sie in der Ausgabe nach dem Wert **Name**, der dem Standort Ihrer Ressourcengruppe entspricht (für *East US* ist der entsprechende Name beispielsweise *eastus).*
+1. Suchen Sie in der Ausgabe nach dem Wert **Name**, der dem Standort Ihrer Ressourcengruppe entspricht (für *USA, Osten* ist der entsprechende Name beispielsweise *eastus).*
 
     > **Wichtig**: Zeichnen Sie den Wert **Name** auf, und verwenden Sie ihn in Schritt 11.
 
@@ -116,11 +116,11 @@ Jetzt trainieren Sie das Modell mithilfe der Dateien, die in das Speicherkonto h
 1. Wählen Sie unter **Meine Projekte** die Option **+ Projekt erstellen** aus. Verwenden Sie die folgenden Konfigurationen:
 
     - **Projektname**: Geben Sie einen eindeutigen Namen ein.
-        - Wählen Sie *Weiter*.
+        - Wählen Sie *Continue* (Weiter) aus.
     - **Dienstressource konfigurieren**: Wählen Sie das Abonnement, die Ressourcengruppen und die Dokument Intelligenz-Ressource aus, die Sie zuvor in diesem Lab erstellt haben. Aktivieren Sie das Kontrollkästchen *Als Standard festlegen*. Behalten Sie die Standard-API-Version bei. 
-        - Wählen Sie *Weiter*.
+        - Wählen Sie *Continue* (Weiter) aus.
     - **Verbindung mit der Trainingsdatenquelle herstellen**: Wählen Sie das Abonnement, die Ressourcengruppe und das Speicherkonto aus, das vom Setupskript erstellt wurde. Aktivieren Sie das Kontrollkästchen *Als Standard festlegen*. Wählen Sie den Blobcontainer `sampleforms` aus, und lassen Sie den Ordnerpfad leer.
-        - Wählen Sie *Weiter*.
+        - Wählen Sie *Continue* (Weiter) aus.
     - Wählen Sie *Projekt erstellen* aus.
 
 1. Wenn Ihr Projekt erstellt wurde, wählen Sie **Trainieren** aus, um Ihr Modell zu trainieren. Verwenden Sie die folgenden Konfigurationen:
@@ -147,7 +147,7 @@ Jetzt trainieren Sie das Modell mithilfe der Dateien, die in das Speicherkonto h
 1. Wählen Sie in Visual Studio Code im Ordner **Labfiles/02-custom-document-intelligence** die von Ihnen verwendete Sprache aus. Bearbeiten Sie die Konfigurationsdatei (**appsettings.json** oder **.env**, je nach Ihrer Spracheinstellung) mit den folgenden Werten:
     - Ihrem Dokument Intelligenz-Endpunkt.
     - Ihr Dokument Intelligenz-Schlüssel.
-    - Der Modell-ID, die Sie beim Trainieren Ihres Modells bereitgestellt haben. Diese finden Sie auf der Seite **Modelle** in Dokument Intelligenz Studio. Wählen Sie **Speichern** aus, um die Änderungen zu speichern.
+    - Der Modell-ID, die Sie beim Trainieren Ihres Modells bereitgestellt haben. Diese finden Sie auf der Seite **Modelle** in Dokument Intelligenz Studio. **Speichern** Sie die Änderungen.
 
 1. Öffnen Sie in Visual Studio Code die Codedatei für Ihre Clientanwendung (*Program.cs* für C#, *test-model.py* für Python), und überprüfen Sie den darin enthaltenen Code, insbesondere, ob das Bild in der URL auf die Datei in diesem GitHub-Repository im Web verweist.
 
@@ -168,7 +168,7 @@ Jetzt trainieren Sie das Modell mithilfe der Dateien, die in das Speicherkonto h
 
 1. Sehen Sie sich die Ausgabe an. Sie erkennen dabei, wie die Ausgabe für das Modell Feldnamen wie `Merchant` und `CompanyPhoneNumber` bereitstellt.
 
-## Bereinigen
+## Bereinigung
 
 Wenn Sie mit Ihrer Azure-Ressource fertig sind, denken Sie daran, die Ressource im [Azure-Portal](https://portal.azure.com/?azure-portal=true) zu löschen, um zukünftige Gebühren zu vermeiden.
 
