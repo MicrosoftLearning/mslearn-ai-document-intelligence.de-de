@@ -44,11 +44,11 @@ Zum Erstellen eines zusammengesetzten Modells müssen Sie zunächst zwei oder me
 1. Wählen Sie unter **Meine Projekte** die Option **+ Projekt erstellen** aus.
 1. Geben Sie im Textfeld **Projektname** den Eintrag **1040 Forms** ein, und wählen Sie dann **Weiter** aus.
 1. Wählen Sie auf der Seite **Configure service resource** (Dienstressource konfigurieren) in der Dropdownliste **Abonnement** Ihr Azure-Abonnement aus.
-1. Wählen Sie in der Dropdownliste **Ressourcengruppe** die für Sie erstellte Gruppe **DocumentIntelligenceResources&lt;xxxx&gt** aus.
-1. Wählen Sie in der Dropdownliste **Azure KI Dokument Intelligenz- oder Azure KI Services-Ressource** den Eintrag **DocumentIntelligence&lt;xxxx&gt** aus.
+1. Wählen Sie in der Dropdownliste **Ressourcengruppe** die für Sie erstellte **DocumentIntelligenceResources&lt;xxxx&gt;** aus.
+1. Wählen Sie in der Dropdownliste **Azure KI Dokument Intelligenz oder Azure KI-Dienstressource** den Eintrag **DocumentIntelligence&lt;xxxx&gt&gt;** aus.
 1. Vergewissern Sie sich, dass in der Dropdownliste **API-Version** der Eintrag **2023-10-31-preview** ausgewählt ist, und wählen Sie dann **Weiter** aus.
 1. Wählen Sie auf der Seite **Trainingsdatenquelle verbinden** in der Dropdownliste **Abonnement** Ihr Azure-Abonnement aus.
-1. Wählen Sie in der Dropdownliste **Ressourcengruppe** den Eintrag **DocumentIntelligenceResources&lt;xxxx&gt** aus.
+1. Wählen Sie in der Dropdownliste **Ressourcengruppe** den Eintrag **DocumentIntelligenceResources&lt;xxxx&gt;** aus.
 1. Wählen Sie in der Dropdownliste **Speicherkonto** das einzige Speicherkonto aus, das aufgeführt wird. Wenn Sie über mehrere Speicherkonten in Ihrem Abonnement verfügen, wählen Sie das Konto aus, das mit *docintelstorage* beginnt.
 1. Wählen Sie in der Dropdownliste **BLOB-Container** die Option **1040examples** und dann **Weiter** aus.
 1. Wählen Sie auf der Seite **Überprüfen und erstellen** die Option **Projekt erstellen** aus.
@@ -91,11 +91,11 @@ Jetzt müssen Sie ein zweites Modell erstellen, das Sie am Beispiel von 1099-Ste
 1. Wählen Sie unter **Meine Projekte** die Option **+ Projekt erstellen** aus.
 1. Geben Sie im Textfeld **Projektname** den Eintrag **1099 Forms** ein, und wählen Sie dann **Weiter** aus.
 1. Wählen Sie auf der Seite **Configure service resource** (Dienstressource konfigurieren) in der Dropdownliste **Abonnement** Ihr Azure-Abonnement aus.
-1. Wählen Sie in der Dropdownliste **Ressourcengruppe** den Eintrag **DocumentIntelligenceResources&lt;xxxx&gt** aus.
-1. Wählen Sie in der Dropdownliste **Azure KI Dokument Intelligenz- oder Azure KI Services-Ressource** den Eintrag **DocumentIntelligence&lt;xxxx&gt** aus.
+1. Wählen Sie in der Dropdownliste **Ressourcengruppe** den Eintrag **DocumentIntelligenceResources&lt;xxxx&gt;** aus.
+1. Wählen Sie in der Dropdownliste **Azure KI Dokument Intelligenz oder Azure KI-Dienstressource** den Eintrag **DocumentIntelligence&lt;xxxx&gt&gt;** aus.
 1. Vergewissern Sie sich, dass in der Dropdownliste **API-Version** der Eintrag **20223-10-31-preview** ausgewählt ist, und wählen Sie dann **Weiter** aus.
 1. Wählen Sie auf der Seite **Trainingsdatenquelle verbinden** in der Dropdownliste **Abonnement** Ihr Azure-Abonnement aus.
-1. Wählen Sie in der Dropdownliste **Ressourcengruppe** den Eintrag **DocumentIntelligenceResources&lt;xxxx&gt** aus.
+1. Wählen Sie in der Dropdownliste **Ressourcengruppe** den Eintrag **DocumentIntelligenceResources&lt;xxxx&gt;** aus.
 1. Wählen Sie in der Dropdownliste **Speicherkonto** das einzige Speicherkonto aus, das aufgeführt wird.
 1. Wählen Sie in der Dropdownliste **BLOB-Container** die Option **1099examples** und dann **Weiter** aus.
 1. Wählen Sie auf der Seite **Überprüfen und erstellen** die Option **Projekt erstellen** aus.
@@ -144,7 +144,7 @@ Nachdem das zusammengesetzte Modell jetzt fertig ist, testen Sie es mit einem Be
 1. Wählen Sie im Azure KI Document Intelligence Studio die Seite **Test** und anschließend **TaxFormsModel** aus der Dropdownliste aus.
 1. Wählen Sie **Nach Dateien suchen** aus, und navigieren Sie dann zu dem Speicherort, an dem Sie das Repository geklont haben.
 1. Wählen Sie die Datei **03-composed-model/trainingdata/TestDoc/f1040_7.pdf** und dann **Öffnen** aus.
-1. Wählen Sie **Analyse ausführen** aus. Azure KI Dokument Intelligenz analysiert das Formular mithilfe des zusammengesetzten Modells.
+1. Wählen Sie **Run Analysis** (Analyse ausführen) aus. Azure KI Dokument Intelligenz analysiert das Formular mithilfe des zusammengesetzten Modells.
 1. Das von Ihnen analysierte Dokument ist ein Beispiel für das Steuerformular 1040. Überprüfen Sie die Eigenschaft **DocType**, um festzustellen, ob das richtige benutzerdefinierte Modell verwendet wurde. Überprüfen Sie auch die vom Modell identifizierten Werte **FirstName**, **LastName**, **City** und **State**.
 
 ## Bereinigen von Ressourcen
