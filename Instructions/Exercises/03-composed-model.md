@@ -45,7 +45,7 @@ Zum Erstellen eines zusammengesetzten Modells müssen Sie zunächst zwei oder me
 1. Geben Sie im Textfeld **Projektname** den Eintrag **1040 Forms** ein, und wählen Sie dann **Weiter** aus.
 1. Wählen Sie auf der Seite **Configure service resource** (Dienstressource konfigurieren) in der Dropdownliste **Abonnement** Ihr Azure-Abonnement aus.
 1. Wählen Sie in der Dropdownliste **Ressourcengruppe** die für Sie erstellte **DocumentIntelligenceResources&lt;xxxx&gt;** aus.
-1. Wählen Sie in der Dropdownliste **Azure KI Dokument Intelligenz oder Azure KI-Dienstressource** den Eintrag **DocumentIntelligence&lt;xxxx&gt&gt;** aus.
+1. Wählen Sie in der Dropdownliste **Azure KI Dokument Intelligenz oder Azure KI-Dienstressource** den Eintrag **DocumentIntelligence&lt;xxxx&gt;** aus.
 1. Vergewissern Sie sich, dass in der Dropdownliste **API-Version** der Eintrag **2023-10-31-preview** ausgewählt ist, und wählen Sie dann **Weiter** aus.
 1. Wählen Sie auf der Seite **Trainingsdatenquelle verbinden** in der Dropdownliste **Abonnement** Ihr Azure-Abonnement aus.
 1. Wählen Sie in der Dropdownliste **Ressourcengruppe** den Eintrag **DocumentIntelligenceResources&lt;xxxx&gt;** aus.
@@ -92,7 +92,7 @@ Jetzt müssen Sie ein zweites Modell erstellen, das Sie am Beispiel von 1099-Ste
 1. Geben Sie im Textfeld **Projektname** den Eintrag **1099 Forms** ein, und wählen Sie dann **Weiter** aus.
 1. Wählen Sie auf der Seite **Configure service resource** (Dienstressource konfigurieren) in der Dropdownliste **Abonnement** Ihr Azure-Abonnement aus.
 1. Wählen Sie in der Dropdownliste **Ressourcengruppe** den Eintrag **DocumentIntelligenceResources&lt;xxxx&gt;** aus.
-1. Wählen Sie in der Dropdownliste **Azure KI Dokument Intelligenz oder Azure KI-Dienstressource** den Eintrag **DocumentIntelligence&lt;xxxx&gt&gt;** aus.
+1. Wählen Sie in der Dropdownliste **Azure KI Dokument Intelligenz oder Azure KI-Dienstressource** den Eintrag **DocumentIntelligence&lt;xxxx&gt;** aus.
 1. Vergewissern Sie sich, dass in der Dropdownliste **API-Version** der Eintrag **20223-10-31-preview** ausgewählt ist, und wählen Sie dann **Weiter** aus.
 1. Wählen Sie auf der Seite **Trainingsdatenquelle verbinden** in der Dropdownliste **Abonnement** Ihr Azure-Abonnement aus.
 1. Wählen Sie in der Dropdownliste **Ressourcengruppe** den Eintrag **DocumentIntelligenceResources&lt;xxxx&gt;** aus.
