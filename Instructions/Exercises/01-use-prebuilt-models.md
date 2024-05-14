@@ -32,14 +32,15 @@ Beginnen wir mit **Azure KI Dokument Intelligenz-Studio** und dem Lesemodell, um
 1. Wählen Sie unter **Dokumentanalyse** die Kachel **Lesen** aus.
 1. Wenn Sie aufgefordert werden, sich bei Ihrem Konto anzumelden, geben Sie Ihre Azure-Anmeldeinformationen an.
 1. Wenn Sie gefragt werden, welche Azure KI Dokument Intelligenz-Ressource verwendet werden soll, wählen Sie das Abonnement und den Ressourcennamen aus, die Sie beim Erstellen der Azure KI Dokument Intelligenz-Ressource verwendet haben.
-1. Wählen Sie links in der Liste der Dokumente **read-german.png** aus.
+1. Wählen Sie links in der Liste der Dokumente **read-german.pdf** aus.
 
     ![Screenshot: Seite „Lesen“ in Azure KI Dokument Intelligenz-Studio.](../media/read-german-sample.png#lightbox)
 
+1. Wählen Sie links oben **Analyseoptionen** aus, aktivieren Sie das Kontrollkästchen **Sprache** (unter **Optionale Erkennung**) im Bereich **Analyseoptionen**, und klicken Sie auf **Speichern**. 
 1. Wählen Sie links oben **Analyse ausführen** aus.
 1. Nach Abschluss der Analyse wird der aus dem Bild extrahierte Text rechts auf der Registerkarte **Inhalt** angezeigt. Überprüfen Sie diesen Text, und vergleichen Sie ihn mit dem Text im Originalbild auf Richtigkeit.
 1. Wählen Sie die Registerkarte **Ergebnis** aus, auf der der extrahierte JSON-Code angezeigt wird. 
-1. Scrollen Sie auf der Registerkarte **Ergebnis** im JSON-Code nach unten. Beachten Sie, dass das Modell „Lesen“ die Sprache jedes Spans erkannt hat. Die meisten Spans sind Deutsch (Sprachcode `de`), aber das letzte Span ist Englisch (Sprachcode `en`).
+1. Scrollen Sie auf der Registerkarte **Ergebnis** im JSON-Code nach unten. Beachten Sie, dass das Modell „Lesen“ die Sprache jedes Spans erkannt hat. Die meisten Spannen sind deutsch (Sprachcode `de`), aber Sie finden auch andere Sprachcodes in den Spannen (z. B. Englisch – Sprachcode `en` – in einer der letzten Spannen).
 
     ![Screenshot: Spracherkennung für zwei Spannen in den Ergebnissen aus dem Lesemodell in Azure KI Dokument Intelligenz-Studio.](../media/language-detection.png#lightbox)
 
@@ -137,7 +138,6 @@ Jetzt können Sie das SDK verwenden, um die PDF-Datei auszuwerten.
 
     ```csharp
     AnalyzeDocumentOperation operation = await client.AnalyzeDocumentFromUriAsync(WaitUntil.Completed, "prebuilt-invoice", fileUri);
-    await operation.WaitForCompletionAsync();
     ```
 
     **Python**
