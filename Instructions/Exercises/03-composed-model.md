@@ -62,14 +62,14 @@ Jetzt beschriften Sie die Felder in den Beispielformularen:
 
 1. Wählen Sie auf der Seite **Daten beschriften** oben rechts auf der Seite die Option **+ Feld hinzufügen** und dann **Feld** aus.
 1. Geben Sie **FirstName** ein, und drücken Sie dann die *EINGABETASTE*.
-1. Wählen Sie im Dokument **John** aus, und wählen Sie dann **FirstName** aus.
-1. Wählen Sie oben rechts auf der Seite **+** und dann **Feld** aus.
+1. Wählen Sie das Dokument **f1040_1.pdf** in der linken Liste, dann **John** und dann **FirstName** aus.
+1. Wählen Sie rechts oben auf der Seite **+ Feld hinzufügen** und dann **Feld** aus.
 1. Geben Sie **LastName** ein, und drücken Sie dann die *EINGABETASTE*.
 1. Wählen Sie im Dokument **Doe** und dann **LastName** aus.
-1. Wählen Sie oben rechts auf der Seite **+** und dann **Feld** aus.
+1. Wählen Sie rechts oben auf der Seite **+ Feld hinzufügen** und dann **Feld** aus.
 1. Geben Sie **City** ein, und drücken Sie dann die *EINGABETASTE*.
 1. Wählen Sie im Dokument **Los Angeles** aus, und wählen Sie dann **City** aus.
-1. Wählen Sie oben rechts auf der Seite **+** und dann **Feld** aus.
+1. Wählen Sie rechts oben auf der Seite **+ Feld hinzufügen** und dann **Feld** aus.
 1. Geben Sie **State** ein, und drücken Sie dann die *EINGABETASTE*.
 1. Wählen Sie im Dokument **CA** aus, und wählen Sie dann **State** aus.
 1. Wiederholen Sie den Beschriftungsprozess unter Verwendung der von Ihnen erstellten Bezeichnungen für die verbleibenden Formulare in der Liste auf der linken Seite. Beschriften Sie dieselben vier Felder: *FirstName*, *LastName*, *City* und *State*.
@@ -107,16 +107,16 @@ Jetzt müssen Sie ein zweites Modell erstellen, das Sie am Beispiel von 1099-Ste
 
 Beschriften Sie nun die Beispielformulare mit einigen Feldern:
 
-1. Wählen Sie auf der Seite **Bezeichnungsdaten** oben rechts auf der Seite die Option **+** und dann **Feld** aus.
+1. Wählen Sie auf der Seite **Daten beschriften** oben rechts auf der Seite die Option **+ Feld hinzufügen** und dann **Feld** aus.
 1. Geben Sie **FirstName** ein, und drücken Sie dann die *EINGABETASTE*.
-1. Wählen Sie im Dokument **John** aus, und wählen Sie dann **FirstName** aus.
-1. Wählen Sie oben rechts auf der Seite **+** und dann **Feld** aus.
+1. Wählen Sie das Dokument **f1099msc_payer.pdf**, dann **John** und dann **FirstName** aus.
+1. Wählen Sie rechts oben auf der Seite **+ Feld hinzufügen** und dann **Feld** aus.
 1. Geben Sie **LastName** ein, und drücken Sie dann die *EINGABETASTE*.
 1. Wählen Sie im Dokument **Doe** und dann **LastName** aus.
-1. Wählen Sie oben rechts auf der Seite **+** und dann **Feld** aus.
+1. Wählen Sie rechts oben auf der Seite **+ Feld hinzufügen** und dann **Feld** aus.
 1. Geben Sie **City** ein, und drücken Sie dann die *EINGABETASTE*.
 1. Wählen Sie im Dokument die Option **New Haven** und dann **City** aus.
-1. Wählen Sie oben rechts auf der Seite **+** und dann **Feld** aus.
+1. Wählen Sie rechts oben auf der Seite **+ Feld hinzufügen** und dann **Feld** aus.
 1. Geben Sie **State** ein, und drücken Sie dann die *EINGABETASTE*.
 1. Wählen Sie im Dokument die Option **CT** aus, und wählen Sie dann **State** aus.
 1. Wiederholen Sie den Beschriftungsprozess für die verbleibenden Formulare in der Liste auf der linken Seite. Beschriften Sie dieselben vier Felder: *FirstName*, *LastName*, *City* und *State*.
