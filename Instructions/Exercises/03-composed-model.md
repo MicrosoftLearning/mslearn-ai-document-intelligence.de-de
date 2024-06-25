@@ -16,6 +16,8 @@ Das Skript wird dazu verwendet, die Azure KI Dokument Intelligenz-Ressource, ein
 1. Öffnen Sie die Palette (UMSCHALT+STRG+P), und führen Sie einen **Git: Clone**-Befehl aus, um das Repository `https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence` in einen lokalen Ordner zu klonen (der Ordner ist beliebig).
 1. Nachdem das Repository geklont wurde, öffnen Sie den Ordner in Visual Studio Code.
 
+    > **Hinweis:** Wenn Visual Studio Code eine Popupnachricht anzeigt, in der Sie aufgefordert werden, dem geöffneten Code zu vertrauen, klicken Sie auf die Option **Ja, ich vertraue den Autoren** im Popupfenster.
+    
     > **Hinweis**: Wenn Sie aufgefordert werden, erforderliche Ressourcen zum Erstellen und Debuggen hinzuzufügen, wählen Sie **Not now** (Jetzt nicht) aus. Wenn andere Popups aus Visual Studio Code vorhanden sind, können Sie diese gefahrlos schließen.
 
 1. Erweitern Sie im linken Bereich den Ordner **Labfiles**, und klicken Sie mit der rechten Maustaste auf das Verzeichnis **03-composed-model**. Wählen Sie die Option zum Öffnen im integrierten Terminal aus, und führen Sie das folgende Skript aus:
