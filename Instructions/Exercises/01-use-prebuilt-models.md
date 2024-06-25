@@ -53,6 +53,9 @@ Sehen wir uns nun die App an, die das Dienst-SDK von Azure KI Dokument Intellige
 1. Starten Sie Visual Studio Code.
 1. Öffnen Sie die Palette (UMSCHALT+STRG+P), und führen Sie einen **Git: Clone**-Befehl aus, um das Repository `https://github.com/MicrosoftLearning/mslearn-ai-document-intelligence` in einen lokalen Ordner zu klonen (der Ordner ist beliebig).
 1. Nachdem das Repository geklont wurde, öffnen Sie den Ordner in Visual Studio Code.
+
+    > **Hinweis:** Wenn Visual Studio Code eine Popupnachricht anzeigt, in der Sie aufgefordert werden, dem geöffneten Code zu vertrauen, klicken Sie auf die Option **Ja, ich vertraue den Autoren** im Popupfenster.
+
 1. Warten Sie, während zusätzliche Dateien zur Unterstützung der C#-Codeprojekte im Repository installiert werden.
 
     > **Hinweis**: Wenn Sie aufgefordert werden, erforderliche Ressourcen zum Erstellen und Debuggen hinzuzufügen, wählen Sie **Not now** (Jetzt nicht) aus. Wenn Sie die Meldung *Azure Functions-Projekt im Ordner erkannt* angezeigt wird, können Sie diese Meldung einfach schließen.
