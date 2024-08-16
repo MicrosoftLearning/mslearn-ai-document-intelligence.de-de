@@ -40,7 +40,7 @@ Beginnen wir mit **Azure KI Dokument Intelligenz-Studio** und dem Lesemodell, um
 1. Wählen Sie links oben **Analyse ausführen** aus.
 1. Nach Abschluss der Analyse wird der aus dem Bild extrahierte Text rechts auf der Registerkarte **Inhalt** angezeigt. Überprüfen Sie diesen Text, und vergleichen Sie ihn mit dem Text im Originalbild auf Richtigkeit.
 1. Wählen Sie die Registerkarte **Ergebnis** aus, auf der der extrahierte JSON-Code angezeigt wird. 
-1. Scrollen Sie auf der Registerkarte **Ergebnis** im JSON-Code nach unten. Beachten Sie, dass das Modell „Lesen“ die Sprache jedes Spans erkannt hat. Die meisten Spannen sind deutsch (Sprachcode `de`), aber Sie finden auch andere Sprachcodes in den Spannen (z. B. Englisch – Sprachcode `en` – in einer der letzten Spannen).
+1. Scrollen Sie auf der Registerkarte **Ergebnis** zum Ende des JSON-Codes. Beachten Sie, dass das Lesemodell die Sprache jedes durch `locale` angegebenen Bereichs erkannt hat. Die meisten Spannen sind deutsch (Sprachcode `de`), aber Sie finden auch andere Sprachcodes in den Spannen (z. B. Englisch – Sprachcode `en` – in einer der letzten Spannen).
 
     ![Screenshot: Spracherkennung für zwei Spannen in den Ergebnissen aus dem Lesemodell in Azure KI Dokument Intelligenz-Studio.](../media/language-detection.png#lightbox)
 
