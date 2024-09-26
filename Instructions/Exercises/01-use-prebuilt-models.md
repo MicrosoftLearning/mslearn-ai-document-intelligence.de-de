@@ -14,7 +14,7 @@ Bevor Sie den Dienst „Azure KI Dokument Intelligenz“ aufrufen können, müss
 
 1. Öffnen Sie auf einer Browserregisterkarte das Azure-Portal unter [https://portal.azure.com](https://portal.azure.com?azure-portal=true), und melden Sie sich mit dem Microsoft-Konto an, das Ihrem Azure-Abonnement zugeordnet ist.
 1. Navigieren Sie im Azure-Portal auf der Homepage zum oberen Suchfeld, geben Sie **Dokumentintelligenz** ein, und drücken Sie dann die **Eingabetaste**.
-1. Wählen Sie auf der Seite **Dokumentintelligenz** die Option **Erstellen** aus.
+1. Wählen Sie auf der Seite **Dokument Intelligenz** die Option **Dokument Intelligenz erstellen**.
 1. Verwenden Sie auf der Seite **Dokumentintelligenz erstellen** Folgendes, um Ihre Ressource zu konfigurieren:
     - **Abonnement**: Ihr Azure-Abonnement.
     - **Ressourcengruppe**: Wählen Sie eine Ressourcengruppe aus oder erstellen Sie eine mit einem eindeutigen Namen wie *DocIntelligenceResources*.
@@ -81,7 +81,7 @@ Es werden Anwendungen für C# und Python bereitgestellt sowie eine Beispiel-PDF-
     **Python**:
 
     ```powershell
-    pip install azure-ai-formrecognizer==3.3.0
+    pip install azure-ai-formrecognizer==3.3.3
     ```
 
 ## Hinzufügen von Code zur Verwendung des Azure KI Dokument Intelligenz-Diensts

@@ -49,14 +49,14 @@ Zum Erstellen eines zusammengesetzten Modells müssen Sie zunächst zwei oder me
 1. Geben Sie im Textfeld **Projektname** den Eintrag **1040 Forms** ein, und wählen Sie dann **Weiter** aus.
 1. Wählen Sie auf der Seite **Configure service resource** (Dienstressource konfigurieren) in der Dropdownliste **Abonnement** Ihr Azure-Abonnement aus.
 1. Wählen Sie in der Dropdownliste **Ressourcengruppe** die für Sie erstellte **DocumentIntelligenceResources&lt;xxxx&gt;** aus.
-1. Wählen Sie in der Dropdownliste **Azure KI Dokument Intelligenz oder Azure KI-Dienstressource** den Eintrag **DocumentIntelligence&lt;xxxx&gt&gt;** aus.
-1. Vergewissern Sie sich, dass in der Dropdownliste **API-Version** der Eintrag **2023-10-31-preview** ausgewählt ist, und wählen Sie dann **Weiter** aus.
+1. Wählen Sie in der Dropdown-Liste **Dokumenten Intelligenz oder Cognitive Service/Ressource** die Option **DocumentIntelligence&lt;xxxx&gt;**.
+1. Vergewissern Sie sich, dass in der Dropdownliste **API-Version** der Eintrag **2024-07-31 (Preview)** ausgewählt ist, und wählen Sie dann **Weiter** aus.
 1. Wählen Sie auf der Seite **Trainingsdatenquelle verbinden** in der Dropdownliste **Abonnement** Ihr Azure-Abonnement aus.
 1. Wählen Sie in der Dropdownliste **Ressourcengruppe** den Eintrag **DocumentIntelligenceResources&lt;xxxx&gt;** aus.
 1. Wählen Sie in der Dropdownliste **Speicherkonto** das einzige Speicherkonto aus, das aufgeführt wird. Wenn Sie über mehrere Speicherkonten in Ihrem Abonnement verfügen, wählen Sie das Konto aus, das mit *docintelstorage* beginnt.
 1. Wählen Sie in der Dropdownliste **BLOB-Container** die Option **1040examples** und dann **Weiter** aus.
 1. Wählen Sie auf der Seite **Überprüfen und erstellen** die Option **Projekt erstellen** aus.
-1. Wählen Sie im Popup *Beschriftung jetzt starten* die Option **Layout ausführen** aus, und warten Sie, bis die Analyse abgeschlossen ist.
+1. Wählen Sie **Jetzt ausführen** unter *Layout ausführen* im Popup-Fenster *Beschriftung jetzt starten* und warten Sie, bis die Analyse abgeschlossen ist.
 
 ## Beschriften des benutzerdefinierten Modells „1040 Forms“
 
@@ -74,7 +74,7 @@ Jetzt beschriften Sie die Felder in den Beispielformularen:
 1. Wählen Sie rechts oben auf der Seite **+ Feld hinzufügen** und dann **Feld** aus.
 1. Geben Sie **State** ein, und drücken Sie dann die *EINGABETASTE*.
 1. Wählen Sie im Dokument **CA** aus, und wählen Sie dann **State** aus.
-1. Wiederholen Sie den Beschriftungsprozess unter Verwendung der von Ihnen erstellten Bezeichnungen für die verbleibenden Formulare in der Liste auf der linken Seite. Beschriften Sie dieselben vier Felder: *FirstName*, *LastName*, *City* und *State*.
+1. Wiederholen Sie den Beschriftungsprozess unter Verwendung der von Ihnen erstellten Bezeichnungen für die verbleibenden Formulare in der Liste auf der linken Seite. Beschriften Sie dieselben vier Felder: *FirstName*, *LastName*, *City* und *State*. Beachten Sie, dass eines der Dokumente weder über Orts- noch über Landesdaten verfügt.
 
 > **WICHTIG** Für diese Übung werden nur fünf Beispielformulare verwendet und nur vier Felder beschriftet. In Ihren in der Praxis verwendeten Modellen sollten Sie so viele Beispiele wie möglich verwenden, um die Genauigkeit und Vertrauenswürdigkeit Ihrer Vorhersagen zu maximieren. Sie sollten auch alle verfügbaren Felder in den Formularen und nicht nur vier Felder beschriften.
 
@@ -82,7 +82,7 @@ Jetzt beschriften Sie die Felder in den Beispielformularen:
 
 Nachdem die Beispielformulare jetzt beschriftet sind, kann das erste benutzerdefinierte Modell trainiert werden:
 
-1. Wählen Sie in Azure KI Dokument Intelligenz Studio die Option **Trainieren** aus.
+1. Wählen Sie im Azure KI Dokument Intelligenz Studio oben rechts auf dem Bildschirm **Trainieren**.
 1. Geben Sie im Dialogfeld **Train a new model** (Neues Modell trainieren) im Textfeld **Modell-ID** den Eintrag **1040FormsModel** ein.
 1. Wählen Sie in der Dropdownliste **Build mode** (Buildmodus) die Option **Vorlage** aus, und wählen Sie dann **Trainieren** aus. 
 1. Wählen Sie im Dialogfeld **Training in Progress** (Training wird durchgeführt) die Option **Go to Models** (Zu den Modellen) aus.
@@ -96,14 +96,15 @@ Jetzt müssen Sie ein zweites Modell erstellen, das Sie am Beispiel von 1099-Ste
 1. Geben Sie im Textfeld **Projektname** den Eintrag **1099 Forms** ein, und wählen Sie dann **Weiter** aus.
 1. Wählen Sie auf der Seite **Configure service resource** (Dienstressource konfigurieren) in der Dropdownliste **Abonnement** Ihr Azure-Abonnement aus.
 1. Wählen Sie in der Dropdownliste **Ressourcengruppe** den Eintrag **DocumentIntelligenceResources&lt;xxxx&gt;** aus.
-1. Wählen Sie in der Dropdownliste **Azure KI Dokument Intelligenz oder Azure KI-Dienstressource** den Eintrag **DocumentIntelligence&lt;xxxx&gt&gt;** aus.
-1. Vergewissern Sie sich, dass in der Dropdownliste **API-Version** der Eintrag **20223-10-31-preview** ausgewählt ist, und wählen Sie dann **Weiter** aus.
+1. Wählen Sie in der Dropdown-Liste **Dokumenten Intelligenz oder Cognitive Service/Ressource** die Option **DocumentIntelligence&lt;xxxx&gt;**.
+1. Vergewissern Sie sich, dass in der Dropdownliste **API-Version** der Eintrag **2024-07-31 (Preview)** ausgewählt ist, und wählen Sie dann **Weiter** aus.
 1. Wählen Sie auf der Seite **Trainingsdatenquelle verbinden** in der Dropdownliste **Abonnement** Ihr Azure-Abonnement aus.
 1. Wählen Sie in der Dropdownliste **Ressourcengruppe** den Eintrag **DocumentIntelligenceResources&lt;xxxx&gt;** aus.
 1. Wählen Sie in der Dropdownliste **Speicherkonto** das einzige Speicherkonto aus, das aufgeführt wird.
 1. Wählen Sie in der Dropdownliste **BLOB-Container** die Option **1099examples** und dann **Weiter** aus.
 1. Wählen Sie auf der Seite **Überprüfen und erstellen** die Option **Projekt erstellen** aus.
-1. Wählen Sie im Popup *Beschriftung jetzt starten* die Option **Layout ausführen** aus, und warten Sie, bis die Analyse abgeschlossen ist.
+1. Wählen Sie die Dropdown-Schaltfläche für **Layout ausführen** und wählen Sie **Nicht analysierte Dokumente**.
+1. Warten Sie, bis die Analyse abgeschlossen ist.
 
 ## Beschriften des benutzerdefinierten Modells „1099 Forms“
 
@@ -121,31 +122,24 @@ Beschriften Sie nun die Beispielformulare mit einigen Feldern:
 1. Wählen Sie rechts oben auf der Seite **+ Feld hinzufügen** und dann **Feld** aus.
 1. Geben Sie **State** ein, und drücken Sie dann die *EINGABETASTE*.
 1. Wählen Sie im Dokument die Option **CT** aus, und wählen Sie dann **State** aus.
-1. Wiederholen Sie den Beschriftungsprozess für die verbleibenden Formulare in der Liste auf der linken Seite. Beschriften Sie dieselben vier Felder: *FirstName*, *LastName*, *City* und *State*.
+1. Wiederholen Sie den Beschriftungsprozess für die verbleibenden Formulare in der Liste auf der linken Seite. Beschriften Sie dieselben vier Felder: *FirstName*, *LastName*, *City* und *State*. Beachten Sie, dass zwei der Dokumente über keine Namensdaten verfügen, die beschriftet werden könnten.
 
 ## Trainieren des benutzerdefinierten Modells „1099 Forms“
 
 Sie können jetzt das zweite benutzerdefinierte Modell trainieren:
 
-1. Wählen Sie in Azure KI Dokument Intelligenz Studio die Option **Trainieren** aus.
+1. Wählen Sie in Azure KI Dokument Intelligenz Studio oben rechts die Option **Trainieren** aus.
 1. Geben Sie im Dialogfeld **Train a new model** (Neues Modell trainieren) im Textfeld **Modell-ID** den Eintrag **1099FormsModel** ein.
 1. Wählen Sie in der Dropdownliste **Build mode** (Buildmodus) die Option **Vorlage** aus, und wählen Sie dann **Trainieren** aus.
 1. Wählen Sie im Dialogfeld **Training in Progress** (Training wird durchgeführt) die Option **Go to Models** (Zu den Modellen) aus.
 1. Der Trainingsprozess kann einige Minuten dauern. Aktualisieren Sie den Browser gelegentlich, bis für beide Modelle der Status **erfolgreich** angezeigt wird.
 
-## Erstellen und Zusammenführen eines zusammengesetzten Modells
+## Verwenden des Modells
 
-Die beiden benutzerdefinierten Modelle, von denen 1040- und 1099-Steuerformulare analysiert werden, sind jetzt fertig. Sie können jetzt damit fortfahren, das zusammengesetzte Modell zu erstellen:
+Da das Modell nun fertig ist, testen wir es mit einem Beispielformular:
 
-1. Wählen Sie auf der Azure KI Dokument Intelligenz-Seite „Modelle“ die Optionen **1040FormsModel** und **1099FormsModel** aus.
-1. Wählen Sie oben in der Liste der Modelle die Option **Compose** (Zusammenstellen) aus.
-1. Geben Sie im Dialogfeld **Compose a new model** (Neues Modell zusammenstellen) im Textfeld **Modell-ID** den Eintrag **TaxFormsModel** ein, und wählen Sie dann **Compose** (Zusammenstellen) aus. Das zusammengesetzte Modell wird von Azure KI Dokument Intelligenz erstellt und in der Liste der benutzerdefinierten Modelle angezeigt:
-
-## Verwenden des zusammengesetzten Modells
-
-Nachdem das zusammengesetzte Modell jetzt fertig ist, testen Sie es mit einem Beispielformular:
-
-1. Wählen Sie im Azure KI Document Intelligence Studio die Seite **Test** und anschließend **TaxFormsModel** aus der Dropdownliste aus.
+1. Wählen Sie im Azure KI Dokument Intelligenz Studio die Seite **Modelle** und dann das  **1040FormsModel** aus.
+1. Klicken Sie auf **Test**.
 1. Wählen Sie **Nach Dateien suchen** aus, und navigieren Sie dann zu dem Speicherort, an dem Sie das Repository geklont haben.
 1. Wählen Sie die Datei **03-composed-model/trainingdata/TestDoc/f1040_7.pdf** und dann **Öffnen** aus.
 1. Wählen Sie **Run Analysis** (Analyse ausführen) aus. Azure KI Dokument Intelligenz analysiert das Formular mithilfe des zusammengesetzten Modells.
