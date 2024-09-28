@@ -126,9 +126,10 @@ Jetzt trainieren Sie das Modell mithilfe der Dateien, die in das Speicherkonto h
         - Wählen Sie *Continue* (Weiter) aus.
     - Wählen Sie *Projekt erstellen* aus.
 
-1. Wenn Ihr Projekt erstellt wurde, wählen Sie **Trainieren** aus, um Ihr Modell zu trainieren. Verwenden Sie die folgenden Konfigurationen:
+1. Sobald Ihr Projekt erstellt ist, wählen Sie oben rechts auf dem Bildschirm **Trainieren** aus, um Ihr Modell zu trainieren. Verwenden Sie die folgenden Konfigurationen:
     - **Modell-ID**: *Geben Sie einen global eindeutigen Namen an (im nächsten Schritt benötigen Sie den Modell-ID-Namen).* 
     - **Erstellungsmodus**: Wählen Sie „Vorlage“ aus.
+1. Klicken Sie auf **Zu Modellen wechseln**.
 1. Das Training kann einige Zeit dauern. Sie erhalten eine Benachrichtigung, wenn der Vorgang abgeschlossen ist.
 
 ## Testen Ihres benutzerdefinierten Dokument Intelligenz-Modells
@@ -144,7 +145,7 @@ Jetzt trainieren Sie das Modell mithilfe der Dateien, die in das Speicherkonto h
     **Python**:
 
     ```powershell
-    pip install azure-ai-formrecognizer==3.3.0
+    pip install azure-ai-formrecognizer==3.3.3
     ```
 
 1. Wählen Sie in Visual Studio Code im Ordner **Labfiles/02-custom-document-intelligence** die von Ihnen verwendete Sprache aus. Bearbeiten Sie die Konfigurationsdatei (**appsettings.json** oder **.env**, je nach Ihrer Spracheinstellung) mit den folgenden Werten:
