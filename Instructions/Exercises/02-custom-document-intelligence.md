@@ -97,11 +97,7 @@ Sie verwenden Beispielformulare wie dieses, um ein Modell zu trainieren:
 1. Geben Sie im Terminal für den Ordner **Labfiles/02-custom-document-intelligence** den folgenden Befehl ein, um das Skript auszuführen:
 
     ```PowerShell
-    $currentdir=(Get-Item .).FullName
-    cd ..
     ./setup.cmd
-    cd $currentdir
-
     ```
 
 1. Überprüfen Sie nach Abschluss des Skripts die angezeigte Ausgabe.
