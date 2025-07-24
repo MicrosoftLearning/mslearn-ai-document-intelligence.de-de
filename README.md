@@ -1,10 +1,1 @@
-#README
-
-We've turned off the ability to report issues directly on this repo and do not monitor PRs.
-
-Provide feedback here: https://aka.ms/provide-feedback
-
-Or, if you are a trainer with a microsoft.com email address, please create a ticket in AzDO.
-
-# mslearn-document-intelligence
-Labdateien für Azure KI Dokument Intelligenz-Module
+> **HINWEIS:** Dieses Repository wird archiviert und nicht mehr verwaltet. Besuchen Sie bitte den Lernpfad zur [Entwicklung von KI-Lösungen zur Informationsextraktion](https://learn.microsoft.com/training/paths/ai-extract-information/) und das [zugehörige Lab-Repository](https://github.com/MicrosoftLearning/mslearn-ai-information-extraction) oder die [Dokumentation zu Azure AI Foundry](https://learn.microsoft.com/azure/ai-foundry/)
